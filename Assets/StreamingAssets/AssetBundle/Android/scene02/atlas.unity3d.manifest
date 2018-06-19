@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 4185230627
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b8634e85d4cbc567d637b64978035cd7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/Scenes/Scene02/atlas/MiniMap.jpg
+- Assets/Art/Scenes/Scene02/atlas/MainCityAtlas(rgba).png
+Dependencies: []

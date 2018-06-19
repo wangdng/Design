@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2203932521
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f10537db176e6d940ce75dcbc29e8e56
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/Scenes/Scene02/mat/minimap.mat
+Dependencies:
+- E:/DesignPatterns/DesignPatterns/Assets/StreamingAssets/AssetBundle/Android/scene02/atlas.unity3d

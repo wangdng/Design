@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3979527225
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35878565129cf278d34fa26ce9016ec4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/Scenes/Scene01/mat/uibattle.mat
+- Assets/Art/Scenes/Scene01/mat/uimain.mat
+Dependencies:
+- E:/DesignPatterns/DesignPatterns/Assets/StreamingAssets/AssetBundle/Android/scene01/atlas.unity3d

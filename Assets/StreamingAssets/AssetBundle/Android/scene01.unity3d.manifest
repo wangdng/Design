@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 4101964239
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a702112c58f77ab88c40f0b725a5419e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/Art/Scenes/Scene01/Scene01.unity
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4140238146
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 080b6ddd72073b2457520ada67df4037
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/Scenes/Scene01/atlas/GlobalUIAtlas(rgba).png
+Dependencies: []

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 663055146
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scene01.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: scene01/atlas.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: scene01/mat.unity3d
+      Dependencies:
+        Dependency_0: scene01/atlas.unity3d
+    Info_3:
+      Name: scene01/uibattle.unity3d
+      Dependencies:
+        Dependency_0: scene01/mat.unity3d
+    Info_4:
+      Name: scene01/uimain.unity3d
+      Dependencies:
+        Dependency_0: scene01/mat.unity3d
+    Info_5:
+      Name: scene02/atlas.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: scene02/mat.unity3d
+      Dependencies:
+        Dependency_0: scene02/atlas.unity3d
+    Info_7:
+      Name: scene02/uiresult.unity3d
+      Dependencies:
+        Dependency_0: scene02/mat.unity3d

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Lua\" />
+    <Folder Include="Lua\Asset\" />
+    <Folder Include="Lua\Global\" />
+    <Folder Include="Lua\NetWork\" />
+    <Folder Include="Lua\UI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lua\Asset\LAssetBase.lua" />
+    <Compile Include="Lua\Asset\LAssetBundleLoad.lua" />
+    <Compile Include="Lua\Asset\LAssetManager.lua" />
+    <Compile Include="Lua\Asset\LAssetMsg.lua" />
+    <Compile Include="Lua\Global\Define.lua" />
+    <Compile Include="Lua\Global\EventNode.lua" />
+    <Compile Include="Lua\Global\LEvent.lua" />
+    <Compile Include="Lua\Global\LManagerBase.lua" />
+    <Compile Include="Lua\Global\LMsgBase.lua" />
+    <Compile Include="Lua\Global\LMsgCenter.lua" />
+    <Compile Include="Lua\Main.lua" />
+    <Compile Include="Lua\NetWork\LNetBase.lua" />
+    <Compile Include="Lua\NetWork\LNetWorkMnanger.lua" />
+    <Compile Include="Lua\NetWork\LTCPSocket.lua" />
+    <Compile Include="Lua\UI\LUIBase.lua" />
+    <Compile Include="Lua\UI\LUILoad.lua" />
+    <Compile Include="Lua\UI\LUIManager.lua" />
+    <Compile Include="Lua\UI\LUIMsg.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lua\Asset.meta" />
+    <Content Include="Lua\Asset\LAssetBase.lua.meta" />
+    <Content Include="Lua\Asset\LAssetBundleLoad.lua.meta" />
+    <Content Include="Lua\Asset\LAssetManager.lua.meta" />
+    <Content Include="Lua\Asset\LAssetMsg.lua.meta" />
+    <Content Include="Lua\Global.meta" />
+    <Content Include="Lua\Global\Define.lua.meta" />
+    <Content Include="Lua\Global\EventNode.lua.meta" />
+    <Content Include="Lua\Global\LEvent.lua.meta" />
+    <Content Include="Lua\Global\LManagerBase.lua.meta" />
+    <Content Include="Lua\Global\LMsgBase.lua.meta" />
+    <Content Include="Lua\Global\LMsgCenter.lua.meta" />
+    <Content Include="Lua\Main.lua.meta" />
+    <Content Include="Lua\NetWork.meta" />
+    <Content Include="Lua\NetWork\LNetBase.lua.meta" />
+    <Content Include="Lua\NetWork\LNetWorkMnanger.lua.meta" />
+    <Content Include="Lua\NetWork\LTCPSocket.lua.meta" />
+    <Content Include="Lua\UI.meta" />
+    <Content Include="Lua\UI\LUIBase.lua.meta" />
+    <Content Include="Lua\UI\LUILoad.lua.meta" />
+    <Content Include="Lua\UI\LUIManager.lua.meta" />
+    <Content Include="Lua\UI\LUIMsg.lua.meta" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

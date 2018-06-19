@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 4056296163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3b0c31d529e92e4d9bb5fa9e327bd48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2de3c15d1827fda10fa074b7d247d716
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/Scenes/Scene02/uiresult/Ui_Result.prefab
+Dependencies:
+- E:/DesignPatterns/DesignPatterns/Assets/StreamingAssets/AssetBundle/Android/scene02/mat.unity3d

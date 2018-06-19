@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1748005667
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28bbb29d8d4ef7eecc965dac065de90c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 609d7de6b2db26ba83365ee892f176bb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/Scenes/Scene01/uibattle/UI_Battle.prefab
+Dependencies:
+- E:/DesignPatterns/DesignPatterns/Assets/StreamingAssets/AssetBundle/Android/scene01/mat.unity3d
